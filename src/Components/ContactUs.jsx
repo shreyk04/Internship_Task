@@ -11,9 +11,11 @@ const ContactUs = () => {
   return (
     <div className=" w-full lg:relative  gradient flex flex-col ">
       <div className="w-full  flex flex-col-reverse justify-center items-center ">
-        <div className="w-full lg:w-[400px]  bg-white rounded-md flex gap-8 justify-center flex-col p-4 lg:absolute lg:top-[20%] lg:left-[70%] z-50 shadow-lg">
-          <h1>Contact us</h1>
-          <h2>We're here for you</h2>
+        <div className="w-full lg:w-[400px]  bg-white rounded-md flex gap-6 float-left justify-center flex-col p-4 lg:absolute lg:top-[20%] lg:left-[70%] z-50 shadow-lg">
+          <h1 className="text-[#F3B431] text-xl font-semibold">Contact us</h1>
+          <h2 className="text-[#F3B431] text-xl font-semibold">
+            We're here for you
+          </h2>
           <div className="flex gap-4 justify-center">
             <FontAwesomeIcon icon={faPhone} />
             <p>+91 7020044091</p>
@@ -22,10 +24,19 @@ const ContactUs = () => {
             <FontAwesomeIcon icon={faEnvelope} />
             <p>info@suvidhafoundationedutech.org</p>
           </div>
+          {/* <div>
+            Nagpur Headquarter: Suvidha Foundation, Walni Ward No. 1, Jai Bhole
+            Nagar, Walni, Saoner Nagpur, Maharashtra 441102
+          </div>
+          <div>
+            {" "}
+            Hyderabad Headquarter: Vazhra Nirman Pushpak, C Block 701, 500090,
+            Hyderabad
+          </div> */}
         </div>
 
         <div className="w-full  text-left relative p-14 shadow-lg bg-slate-200">
-          <h1 className="text-7xl font-semibold text-slate-700">
+          <h1 className="text-4xl md:text-7xl font-semibold text-slate-700">
             Get in touch
           </h1>
           <p className="text-2xl my-4">

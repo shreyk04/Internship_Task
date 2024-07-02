@@ -57,13 +57,13 @@ function EventsPage() {
     }
   ];
   return (
-    <div className="flex flex-col justify-center w-full">
+    <div className="flex flex-col justify-center w-full ">
       <PageHeader text={"Events"} imgSrc={"Suvidha-event.jpg"} />
       <SectionHeader
         section={"Events"}
         sectionText={"Our Charity Events: Celebrating Our Impact Together"}
       />
-      <div className="w-full  flex flex-wrap gap-20 justify-center px-10">
+      <div className="w-full  flex flex-wrap gap-20 justify-center p-10">
         {cards.map((card) => (
           <EventCard
             src={card.src}

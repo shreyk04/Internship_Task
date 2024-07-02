@@ -12,6 +12,7 @@ import { NavLink } from "react-router-dom";
 import Popup from "./Popup";
 import Events from "./Events";
 import TestimonialPage from "./TestimonialPage";
+import AboutUs from "./AboutUs";
 
 const images = ["Suvidha-1.jpg", "Suvidha-4.jpg", "Suvidha-3.jpg"];
 
@@ -92,6 +93,7 @@ function Home() {
         </Carousel>
       </div>
       {showPopup && <Popup setShowPopup={setShowPopup} />}
+      <AboutUs />
       <ApplyHere />
       <Services />
       <StatsSection />

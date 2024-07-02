@@ -19,7 +19,7 @@ function CardWithText({ src, link, text }) {
               }
             }}
           />
-          <p className="p-2">{text}</p>
+          <p className="p-4 font-medium text-red-700">{text}</p>
         </CardActionArea>
       </a>
     </Card>

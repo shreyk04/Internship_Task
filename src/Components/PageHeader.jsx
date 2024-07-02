@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 function PageHeader({ text, imgSrc }) {
   return (
@@ -15,7 +16,8 @@ function PageHeader({ text, imgSrc }) {
           <span className="text-yellow-500 font-semibold">{text}</span>{" "}
         </h1>
         <p className="text-2xl">
-          Home / <span className="text-yellow-500">{text}</span>
+          <NavLink to="/">Home</NavLink> /{" "}
+          <span className="text-yellow-500">{text}</span>
         </p>
       </div>
     </div>

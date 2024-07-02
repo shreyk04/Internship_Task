@@ -3,7 +3,9 @@ import SocialLinks from "./SocialLinks";
 import FooterLink from "./FooterLink";
 
 const FooterHeading = ({ text }) => {
-  return <h1 className="text-2xl font-semibold h-[20%]">{text}</h1>;
+  return (
+    <h1 className="text-2xl font-semibold h-[20%] text-[#FCB00B]">{text}</h1>
+  );
 };
 function Footer() {
   return (
@@ -12,12 +14,16 @@ function Footer() {
         <div className="w-full flex flex-col gap-3  lg:w-[50%] ">
           <FooterHeading text={"Suvidha Foundation (Suvidha Mahila Mandal)"} />
           <p>Office Headquarters-</p>
-          <h2 className="text-xl font-semibold">Nagpur Headquarter:</h2>
+          <h2 className="text-xl font-semibold text-[#F3B431]">
+            Nagpur Headquarter:
+          </h2>
           <p className="">
             Suvidha Foundation, Walni Ward No. 1, Jai Bhole Nagar, Walni, Saoner
             Nagpur, Maharashtra 441102
           </p>
-          <h2 className="text-xl font-semibold">Hyderabad Headquarter:</h2>
+          <h2 className="text-xl font-semibold text-[#F3B431]">
+            Hyderabad Headquarter:
+          </h2>
           <p>Vazhra Nirman Pushpak, C Block 701, 500090, Hyderabad</p>
           <SocialLinks />
         </div>

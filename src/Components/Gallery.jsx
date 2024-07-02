@@ -5,7 +5,7 @@ import GalleryCards from "./GalleryCards";
 
 function Gallery() {
   return (
-    <div className="w-full flex flex-col justify-center items-center  gradient">
+    <div className="w-full flex flex-col justify-center items-center ">
       <PageHeader text={"Gallery"} imgSrc={"Suvidha-event.jpg"} />
       <SectionHeader
         section={"Our Gallery"}
