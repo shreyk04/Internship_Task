@@ -72,11 +72,11 @@ function TestimonialReviews() {
           selectedItem={selectedItem}
           centerMode={window.innerWidth > 1000}
           centerSlidePercentage={window.innerWidth < 500 ? 10 : 37}
-          className="h-full w-full "
+          className="h-full w-full px-[50px]"
           renderArrowNext={(e, hasNext) => {
             return hasNext ? (
               <i
-                className="ri-arrow-right-s-line cursor-pointer absolute top-[50%] right-10 text-4xl z-50 rounded-full bg-gradient-to-r from-[#fdfbfb] to-[#c2c5c7]"
+                className="ri-arrow-right-s-line cursor-pointer absolute top-[50%] right-0 text-4xl z-50 rounded-full bg-gradient-to-r from-[#fdfbfb] to-[#c2c5c7]"
                 onClick={() => e()}
               ></i>
             ) : null;
@@ -84,7 +84,7 @@ function TestimonialReviews() {
           renderArrowPrev={(e, hasPrev) =>
             hasPrev ? (
               <i
-                className="ri-arrow-left-s-line cursor-pointer absolute top-[50%] left-10 text-4xl z-50 rounded-full bg-gradient-to-r from-[#fdfbfb] to-[#c2c5c7]"
+                className="ri-arrow-left-s-line cursor-pointer absolute top-[50%] left-0 text-4xl z-50 rounded-full bg-gradient-to-r from-[#fdfbfb] to-[#c2c5c7]"
                 onClick={() => e()}
               ></i>
             ) : null

@@ -167,7 +167,7 @@ function DonorContribution() {
               {donors.map((donor, index) => (
                 <tr
                   key={index}
-                  className="bg-white border-b transition duration-300 ease-in-out hover:bg-purple-50"
+                  className=" bg-white border-b transition duration-300 ease-in-out hover:bg-purple-50"
                 >
                   <td className="py-3 px-6">{donor.name}</td>
                   <td className="py-3 px-6">{donor.amount}</td>

@@ -57,7 +57,7 @@ function Home() {
           renderArrowNext={(e, hasNext) => {
             return hasNext ? (
               <i
-                className="ri-arrow-right-s-line cursor-pointer absolute top-[55%] md:top-[45%] right-10 text-4xl z-50 rounded-md bg-gradient-to-r from-[#fdfbfb] to-[#c2c5c7]"
+                className="ri-arrow-right-s-line cursor-pointer absolute top-[80%] -translate-y-[50%] md:top-[65%] right-10 text-4xl z-50 rounded-md bg-gradient-to-r from-[#fdfbfb7a] to-[#c2c5c7b5] hover:backdrop-blur-sm transition-all"
                 onClick={() => e()}
               ></i>
             ) : null;
@@ -65,7 +65,7 @@ function Home() {
           renderArrowPrev={(e, hasPrev) =>
             hasPrev ? (
               <i
-                className="ri-arrow-left-s-line cursor-pointer absolute top-[55%] md:top-[45%] left-10 text-4xl z-50 rounded-md bg-gradient-to-r from-[#fdfbfb] to-[#c2c5c7]"
+                className="ri-arrow-left-s-line cursor-pointer absolute top-[80%] -translate-y-[50%] md:top-[65%] left-10 text-4xl z-50 rounded-md bg-gradient-to-r from-[#fdfbfb7a] to-[#c2c5c7b5] hover:backdrop-blur-sm transition-all"
                 onClick={() => e()}
               ></i>
             ) : null
@@ -75,7 +75,7 @@ function Home() {
             <div key={index} className="relative">
               <Image src={src} alt={`Slide ${index + 1}`} />
               <div className="absolute inset-0 flex flex-col items-center justify-center z-10">
-                <h1 className="text-3xl lg:text-7xl text-center capitalize bg-[rgba(255,255,255,0.1)] backdrop-blur-md p-6 rounded-md text-slate-50 opacity-80 shadow-md m-4">
+                <h1 className="text-3xl lg:text-7xl text-center capitalize font-semibold drop-shadow-sm p-6 rounded-md text-slate-100 opacity-80 text-shadow shadow-md m-4">
                   {headings[index]}
                 </h1>
                 <div className="flex gap-4 mt-20 md:mt-4">

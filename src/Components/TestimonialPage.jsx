@@ -22,7 +22,7 @@ function TestimonialPage() {
   const Image = ({ src }) => {
     return (
       <img
-        className=" object-cover w-full h-full rounded-lg shadow-md"
+        className="object-contain w-[auto] h-[70vh] max-h-[800px] rounded-lg overflow-hidden"
         src={process.env.PUBLIC_URL + "/images/home/" + src}
         alt="carousel"
       />
@@ -65,7 +65,7 @@ function TestimonialPage() {
           {images.map((image, index) => (
             <div
               key={index}
-              className="flex justify-center items-center   w-80 p-2 "
+              className="flex justify-center items-center   w-full p-2 "
             >
               <Image src={image} />
             </div>

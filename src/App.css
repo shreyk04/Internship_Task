@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+
+.text-shadow{
+    text-shadow: 2px 2px 4px rgba(147, 116, 3, 0.817);
+}
+
+

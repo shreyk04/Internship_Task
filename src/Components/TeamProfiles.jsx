@@ -31,8 +31,8 @@ const profiles = [
 ];
 const Profile = ({ imgSrc, name, position, link }) => {
   return (
-    <div className="card md:w-72 p-8 w-full   rounded-md shadow-lg my-3 ">
-      <div className=" w-full flex justify-center  relative group66">
+    <div className="card md:w-72 p-8 w-full   rounded-lg shadow-md border border-[rgba(0,0,255,0.2)] ">
+      <div className=" w-full flex justify-center  relative group">
         <img
           src={process.env.PUBLIC_URL + "/images/home/" + imgSrc}
           alt="img"

@@ -64,7 +64,7 @@ function Navbar() {
       </div>
       <div className="flex w-full items-center justify-between px-3 sticky top-0 left-0 z-[100] bg-[#080707] shadow-lg text-gray-300 ">
         <div className="flex w-full justify-between items-center">
-          <NavLink className="cursor-pointer rounded-sm" to="/">
+          <NavLink className="cursor-pointer rounded-sm  w-56 md:w-80 " to="/">
             <img
               src={process.env.PUBLIC_URL + "/images/SuvidhaLogo.png"}
               alt="logo"

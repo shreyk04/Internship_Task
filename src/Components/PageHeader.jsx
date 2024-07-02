@@ -11,8 +11,12 @@ function PageHeader({ text, imgSrc }) {
         />
       </div>
       <div className="absolute inset-0 flex flex-col gap-4 justify-center items-center bg-black bg-opacity-50 text-white">
-        <h1 className="text-4xl font-bold ">{text}</h1>
-        <p className="text-2xl">Home / {text}</p>
+        <h1 className="text-4xl font-bold ">
+          <span className="text-yellow-500 font-semibold">{text}</span>{" "}
+        </h1>
+        <p className="text-2xl">
+          Home / <span className="text-yellow-500">{text}</span>
+        </p>
       </div>
     </div>
   );

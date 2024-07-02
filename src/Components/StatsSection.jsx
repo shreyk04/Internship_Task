@@ -7,6 +7,14 @@ const statsData = [
   { icon: "🌳", label: "Trees Planted", value: "54 L+" }
 ];
 
+const StatCard = ({ stat }) => (
+  <div className="flex flex-row lg:flex-col gap-4  items-center lg:w-64 w-80  bg-transparent border-2 border-[rgba(255,255,255,0.5)]  text-slate-200 p-2 rounded-lg shadow-lg transform transition hover:scale-105 backdrop-blur-sm hover:backdrop-blur-md">
+    <div className="text-2xl md:text-4xl mb-4 mt-2">{stat.icon}</div>
+    <div className="text-2xl md:text-4xl font-bold">{stat.value}</div>
+    <div className="text-2xl md:text-3xl ">{stat.label}</div>
+  </div>
+);
+
 const StatsSection = () => {
   return (
     <section className="  text-white relative flex justify-center h-96">
@@ -22,14 +30,7 @@ const StatsSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 absolute inset-0 flex justify-center items-center">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 ">
           {statsData.map((stat, index) => (
-            <div
-              key={index}
-              className="flex flex-row lg:flex-col gap-4  items-center lg:w-64 w-80  bg-transparent border-2  text-slate-200 p-2 rounded-lg shadow-lg transform transition hover:scale-105"
-            >
-              <div className="text-2xl md:text-4xl mb-4">{stat.icon}</div>
-              <div className="text-2xl md:text-4xl font-bold">{stat.value}</div>
-              <div className="text-2xl md:text-3xl ">{stat.label}</div>
-            </div>
+            <StatCard stat={stat} key={index} />
           ))}
         </div>
       </div>

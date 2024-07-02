@@ -4,7 +4,7 @@ function TestimonialCard({ imgSrc, name, text, className }) {
   return (
     <div
       className={
-        "p-4 space-y-4 w-80 h-72 shadow-md flex flex-col justify-center items-center border-solid border-2  border-[#e5e7e8] rounded-md " +
+        "p-4 space-y-4 w-80 pb-8 shadow-md flex flex-col gap-10 border-solid border-2  border-[#e5e7e8] rounded-md " +
         className
       }
     >

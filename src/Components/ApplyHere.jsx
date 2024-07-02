@@ -3,9 +3,9 @@ import CustomButton from "./CustomButton";
 
 function ApplyHere() {
   return (
-    <div className="relative w-full md:h-[70vh] tracking-wide h-[100vh]">
+    <div className="relative w-full tracking-wide h-[100vh]">
       <div className="absolute inset-0 flex flex-col items-center justify-center p-4 text-white z-10 gap-4">
-        <h1 className="text-3xl md:text-5xl font-semibold text-center mb-4 lg:w-[60%] text-yellow-500 leading-8 md:leading-10">
+        <h1 className="text-3xl md:text-5xl font-semibold text-center mb-4 lg:w-[60%] text-yellow-500 tracking-tighter">
           Apply For Internship and Mentorship Programs
         </h1>
         <h2 className="text-2xl text-center mb-4 lg:w-[50%]">

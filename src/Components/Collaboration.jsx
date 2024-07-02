@@ -12,12 +12,12 @@ function Collaboration() {
       />
 
       <div className="w-full  flex p-4">
-        <div className="flex w-full flex-col gap-3 md:flex-row justify-center items-center  md:justify-around ">
+        <div className="flex w-full flex-col gap-3 md:flex-row justify-center items-center rounded-lg">
           {images.map((imgSrc, index) => (
             <img
               src={process.env.PUBLIC_URL + `/images/home/${imgSrc}`}
               alt=""
-              className="w-[200px] h-[200px] shadow-lg  object-contain"
+              className="w-[200px] h-[200px] shadow-lg  object-contain rounded-lg border border-purple-400"
               key={index}
             />
           ))}
