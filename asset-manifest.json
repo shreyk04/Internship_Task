@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Internship_Task/static/css/main.b64713e8.css",
-    "main.js": "/Internship_Task/static/js/main.de369a01.js",
+    "main.css": "/Internship_Task/static/css/main.731de9d2.css",
+    "main.js": "/Internship_Task/static/js/main.40d3bf66.js",
     "static/js/453.2dda50b0.chunk.js": "/Internship_Task/static/js/453.2dda50b0.chunk.js",
     "static/media/remixicon.svg?t=1718271040674": "/Internship_Task/static/media/remixicon.f38690bdde29bddbc211.svg",
     "static/media/remixicon.eot?t=1718271040674": "/Internship_Task/static/media/remixicon.d87042cf9a3f67d1cab2.eot",
@@ -9,12 +9,12 @@
     "static/media/remixicon.woff?t=1718271040674": "/Internship_Task/static/media/remixicon.1bdc36c90398c9d667d1.woff",
     "static/media/remixicon.woff2?t=1718271040674": "/Internship_Task/static/media/remixicon.8aece9ab0de67b79cfda.woff2",
     "index.html": "/Internship_Task/index.html",
-    "main.b64713e8.css.map": "/Internship_Task/static/css/main.b64713e8.css.map",
-    "main.de369a01.js.map": "/Internship_Task/static/js/main.de369a01.js.map",
+    "main.731de9d2.css.map": "/Internship_Task/static/css/main.731de9d2.css.map",
+    "main.40d3bf66.js.map": "/Internship_Task/static/js/main.40d3bf66.js.map",
     "453.2dda50b0.chunk.js.map": "/Internship_Task/static/js/453.2dda50b0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b64713e8.css",
-    "static/js/main.de369a01.js"
+    "static/css/main.731de9d2.css",
+    "static/js/main.40d3bf66.js"
   ]
 }
